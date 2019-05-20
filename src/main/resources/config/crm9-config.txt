@@ -1,6 +1,6 @@
 mysql.jdbcUrl = jdbc:mysql://127.0.0.1:3306/crm9?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false
 mysql.user = root
-mysql.password = Admin001m
+mysql.password = root
 jfinal.devMode = false
 jfinal.redis=MainRedis,field
 #---------------------------------------------------------
@@ -8,7 +8,7 @@ MainRedis.open = true
 MainRedis.host=127.0.0.1
 MainRedis.port=6379
 MainRedis.timeout=20000
-MainRedis.password=123456
+MainRedis.password=
 MainRedis.cacheName = 72crm
 #---------------------------------------------------------
 #---------------------------------------------------------
@@ -16,6 +16,6 @@ field.open = true
 field.host=127.0.0.1
 field.port=6379
 field.timeout=20000
-field.password=123456
+field.password=
 field.cacheName = field
 #---------------------------------------------------------
